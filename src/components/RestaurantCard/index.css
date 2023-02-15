@@ -1,0 +1,105 @@
+.restaurant-link-item {
+  text-decoration: none;
+}
+
+.restaurant-item {
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; */
+  padding: 10px;
+  margin: 10px;
+
+  min-height: 200px;
+  max-width: 200px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  border-radius: 8px;
+}
+
+.restaurant-image {
+  width: 180px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .restaurant-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    max-width: 300px;
+  }
+
+  .restaurant-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.card-details-container {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.name {
+  color: #334155;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 0px;
+}
+
+.cuisine {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #64748b;
+  align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .restaurant-item {
+    width: 400px;
+  }
+
+  .restaurant-image {
+    width: 180px;
+    height: 120px;
+    max-height: 130px;
+  }
+
+  .name {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+  .cuisine {
+    font-size: 12px;
+    margin: 0px;
+  }
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+.star {
+  color: #ffcc00;
+  width: 15px;
+  height: 17px;
+  margin-right: 2px;
+}
+.rating {
+  margin-top: 15px;
+  color: #0f172a;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+}

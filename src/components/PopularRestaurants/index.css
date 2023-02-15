@@ -1,0 +1,57 @@
+.line {
+  border: 1px solid #cbd2d9;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.restaurants-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .restaurants-list {
+    /* flex-direction: column;
+    justify-content: center; */
+    flex-shrink: 1;
+    /* flex-wrap: nowrap; */
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+  border: 1px solid black;
+}
+.page-numbers {
+  color: #334155;
+  font-family: Bree Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+}
+.button {
+  border: none;
+  background-color: transparent;
+}
